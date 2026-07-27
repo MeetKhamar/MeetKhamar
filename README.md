@@ -51,15 +51,6 @@
 
 ## ⚡ `/whoami`
 
-<table width="100%">
-  <tr>
-    <td width="38%" align="center" valign="top">
-      <!-- Cyber Operator Portrait -->
-      <img src="assets/profile/hero-portrait.jpeg" width="3000" style="border-radius: 12px;" alt="Meet Khamar — Cyber Operator Portrait" />
-      <br/><br/>
-    </td>
-    <td width="62%" valign="top">
-
 ```jsonc
 // OPERATOR IDENTIFICATION
 {
@@ -76,14 +67,22 @@
 }
 ```
 
-```
-      .---.          OS: Linux (Kali / Parrot) | Windows Security Engine
-     ( - - )         SHELL: Bash | PowerShell 7+ | Python
-     \-----/         TARGETS: Threat Hunting, Log Correlation, Automating SecOps
-    ==|   |==        SIEMs: Splunk, Wazuh, FortiGate
-      |   |          SCRIPTS: Python, PowerShell, Bash, Go
-     /     \         MISSION: Reduce MTTR using automation.
-    /       \        STATUS: Operational [24*7*365]
+<table width="100%">
+  <tr>
+    <td width="42%" align="center" valign="middle">
+      <!-- Cyber Operator Portrait -->
+      <img src="assets/profile/hero-portrait.jpeg" width="100%" style="border-radius: 12px;" alt="Meet Khamar — Cyber Operator Portrait" />
+    </td>
+    <td width="58%" valign="middle">
+
+```TechNerd
+OS:       Linux (Kali / Parrot) | Windows Security Engine
+SHELL:    Bash | PowerShell 7+ | Python
+TARGETS:  Threat Hunting, Log Correlation, Automating SecOps
+SIEMs:    Splunk, Wazuh, FortiGate
+SCRIPTS:  Python, PowerShell, Bash, Go
+MISSION:  Reduce MTTR using automation.
+STATUS:   Operational [24*7*365]
 ```
 
   </td>
