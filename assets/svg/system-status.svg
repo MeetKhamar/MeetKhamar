@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 56" width="840" height="56">
+  <defs>
+    <linearGradient id="statusBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#13171F"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="statusBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.35"/>
+      <stop offset="80%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="statusGlow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .label { fill: #64748B; font-size: 9px; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; }
+    .value { fill: #F1F5F9; font-size: 11px; font-weight: 600; }
+    .status-green { fill: #10B981; }
+    .status-blue { fill: #3B82F6; }
+    .status-purple { fill: #8B5CF6; }
+    .divider { stroke: #8B5CF6; stroke-opacity: 0.15; }
+  </style>
+
+  <!-- Background bar -->
+  <rect x="0" y="0" width="840" height="56" rx="10" fill="url(#statusBg)"/>
+  <rect x="0" y="0" width="840" height="56" rx="10" fill="none" stroke="url(#statusBorder)" stroke-width="1"/>
+
+  <!-- System Status -->
+  <g transform="translate(30, 20)">
+    <text class="label" y="0">SYSTEM STATUS</text>
+    <g transform="translate(0, 14)">
+      <circle cx="0" cy="-3" r="4" class="status-green" filter="url(#statusGlow)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <text class="value" x="12" y="0" fill="#10B981">OPERATIONAL</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="195" y1="12" x2="195" y2="44" class="divider"/>
+
+  <!-- Threat Level -->
+  <g transform="translate(215, 20)">
+    <text class="label" y="0">THREAT LEVEL</text>
+    <g transform="translate(0, 14)">
+      <circle cx="0" cy="-3" r="4" class="status-blue" filter="url(#statusGlow)">
+        <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <text class="value" x="12" y="0" fill="#3B82F6">NOMINAL</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="370" y1="12" x2="370" y2="44" class="divider"/>
+
+  <!-- Core Role -->
+  <g transform="translate(390, 20)">
+    <text class="label" y="0">CORE ROLE</text>
+    <g transform="translate(0, 14)">
+      <circle cx="0" cy="-3" r="4" class="status-purple">
+        <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
+      </circle>
+      <text class="value" x="12" y="0">SOC ANALYST &amp; AUTOMATION ENGINEER</text>
+    </g>
+  </g>
+
+  <!-- Divider -->
+  <line x1="620" y1="12" x2="620" y2="44" class="divider"/>
+
+  <!-- Uptime -->
+  <g transform="translate(640, 20)">
+    <text class="label" y="0">UPTIME</text>
+    <g transform="translate(0, 14)">
+      <circle cx="0" cy="-3" r="4" fill="#F59E0B" filter="url(#statusGlow)">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text class="value" x="12" y="0" fill="#F59E0B">24 × 7 × 365</text>
+    </g>
+  </g>
+</svg>
