@@ -8,12 +8,14 @@
 
 | # | Component | File | Dimensions | Status |
 |---|---|---|---|---|
-| 1 | Hero Portrait | `assets/svg/hero-portrait.svg` | 320 × 380 | ✅ Complete |
-| 2 | System Status Bar | `assets/svg/system-status.svg` | 840 × 56 | ✅ Complete |
-| 3 | Skills Radar | `assets/svg/skills-radar.svg` | 460 × 460 | ✅ Complete |
-| 4 | Pipeline Flow | `assets/svg/pipeline-flow.svg` | 800 × 220 | ✅ Complete |
-| 5 | Timeline | `assets/svg/timeline.svg` | 700 × 400 | ✅ Complete |
-| 6 | Section Divider | `assets/svg/section-divider.svg` | 800 × 40 | ✅ Complete |
+| 1 | Hero Portrait | `assets/svg/hero-portrait.svg` | 340 × 420 | ✅ V2 Refined |
+| 2 | System Status Bar | `assets/svg/system-status.svg` | 860 × 64 | ✅ V2 Refined |
+| 3 | Terminal Init | `assets/svg/terminal-init.svg` | 600 × 48 | ✅ NEW |
+| 4 | Mission Briefing | `assets/svg/mission-briefing.svg` | 520 × 160 | ✅ NEW |
+| 5 | Skills Radar | `assets/svg/skills-radar.svg` | 460 × 460 | ✅ Complete |
+| 6 | Pipeline Flow | `assets/svg/pipeline-flow.svg` | 800 × 220 | ✅ Complete |
+| 7 | Timeline | `assets/svg/timeline.svg` | 700 × 400 | ✅ Complete |
+| 8 | Section Divider | `assets/svg/section-divider.svg` | 800 × 40 | ✅ Complete |
 
 ---
 

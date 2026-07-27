@@ -3,20 +3,26 @@
   ║          CYBERSOC PROFILE DASHBOARD — MEET KHAMAR           ║
   ║                                                              ║
   ║  This README is a product, not a document.                   ║
-  ║  Before editing, consult:                                    ║
-  ║    README_DESIGN_SYSTEM.md  — Colors, spacing, typography    ║
-  ║    README_COMPONENTS.md     — Component specs & inventory    ║
-  ║    README_ANIMATION.md      — Motion guidelines              ║
-  ║    README_STYLE_GUIDE.md    — Visual rules & conventions     ║
-  ║    README_CONTENT.md        — Text content source of truth   ║
+  ║  Before editing, consult the documentation suite:            ║
+  ║    README_DESIGN_SYSTEM.md  · README_COMPONENTS.md           ║
+  ║    README_ANIMATION.md      · README_STYLE_GUIDE.md          ║
+  ║    README_CONTENT.md        · README_CONTEXT.md              ║
   ╚══════════════════════════════════════════════════════════════╝
 -->
 
 <!-- ═══════════════════ HERO BANNER ═══════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1C1338,100:0D1117&height=200&section=header&text=SECURITY%20OPERATIONS%20CENTER&fontSize=28&fontColor=8B5CF6&animation=fadeIn&fontAlignY=35&desc=Cyber%20Security%20Professional%20%E2%80%A2%20Automation%20Engineer&descSize=14&descColor=94A3B8&descAlignY=55" width="100%" alt="CyberSOC Dashboard — Meet Khamar" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:12101F,50:1A1030,70:12101F,100:0D1117&height=200&section=header&text=SECURITY%20OPERATIONS%20CENTER&fontSize=28&fontColor=8B5CF6&animation=fadeIn&fontAlignY=34&desc=Cyber%20Security%20Professional%20%E2%80%A2%20Automation%20Engineer&descSize=13&descColor=94A3B8&descAlignY=54" width="100%" alt="CyberSOC Dashboard — Meet Khamar" />
 </p>
+
+<!-- ═══════════════════ TERMINAL INIT ═══════════════════ -->
+
+<p align="center">
+  <img src="assets/svg/terminal-init.svg" width="600" alt="Terminal: initialize --operator MEET_KHAMAR --mode SOC_DASHBOARD" />
+</p>
+
+<br/>
 
 <!-- ═══════════════════ SYSTEM STATUS BAR ═══════════════════ -->
 
@@ -41,17 +47,18 @@
 <!-- ═══════════════════ SECTION DIVIDER ═══════════════════ -->
 <p align="center"><img src="assets/svg/section-divider.svg" width="100%" alt="" /></p>
 
-<!-- ═══════════════════ /WHOAMI — OPERATOR CARD ═══════════════════ -->
+<!-- ═══════════════════ /WHOAMI — OPERATOR IDENTIFICATION ═══════════════════ -->
 
 ## ⚡ `/whoami`
 
 <table width="100%">
   <tr>
-    <td width="40%" align="center" valign="top">
-      <!-- Holographic Portrait -->
+    <td width="38%" align="center" valign="top">
+      <br/>
       <img src="assets/svg/hero-portrait.svg" width="280" alt="Meet Khamar — Cyber Operator Portrait" />
+      <br/><br/>
     </td>
-    <td width="60%" valign="top">
+    <td width="62%" valign="top">
 
 ```jsonc
 // OPERATOR IDENTIFICATION
@@ -82,6 +89,19 @@
   </td>
   </tr>
 </table>
+
+<br/>
+
+<!-- ═══════════════════ SECTION DIVIDER ═══════════════════ -->
+<p align="center"><img src="assets/svg/section-divider.svg" width="100%" alt="" /></p>
+
+<!-- ═══════════════════ MISSION BRIEFING ═══════════════════ -->
+
+## 🎯 Current Mission
+
+<p align="center">
+  <img src="assets/svg/mission-briefing.svg" width="520" alt="Mission: Reduce MTTR Through Intelligent Automation — Focus areas: Detection, Automation, Threat Intel, Open Source" />
+</p>
 
 <br/>
 
@@ -167,7 +187,7 @@
 
 <!-- ═══════════════════ SKILLS RADAR ═══════════════════ -->
 
-## 🎯 Operational Capabilities
+## 📡 Operational Capabilities
 
 <p align="center">
   <img src="assets/svg/skills-radar.svg" width="460" alt="Skills Radar — Blue Team 90%, Scripting 85%, Cloud Sec 70%, Automation 95%, Threat Hunt 80%, Incident Resp 88%" />
@@ -237,7 +257,7 @@
 <!-- ═══════════════════ FOOTER ═══════════════════ -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1C1338,100:0D1117&height=120&section=footer" width="100%" alt="" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:12101F,50:1A1030,70:12101F,100:0D1117&height=120&section=footer" width="100%" alt="" />
 </p>
 
 <p align="center">

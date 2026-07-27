@@ -18,11 +18,13 @@ GENERATED_DIR = REPO_ROOT / "generated"
 # Expected SVG components
 EXPECTED_SVGS = [
     "hero-portrait.svg",
-    "system-status.svg",
-    "skills-radar.svg",
+    "mission-briefing.svg",
     "pipeline-flow.svg",
-    "timeline.svg",
     "section-divider.svg",
+    "skills-radar.svg",
+    "system-status.svg",
+    "terminal-init.svg",
+    "timeline.svg",
 ]
 
 def validate_assets():

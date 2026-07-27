@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 48" width="600" height="48">
+  <defs>
+    <filter id="termGlow" x="-5%" y="-20%" width="110%" height="140%">
+      <feGaussianBlur stdDeviation="1" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes cursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    text { font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+  </style>
+
+  <!-- Terminal prompt -->
+  <text x="0" y="20" font-size="12" fill="#64748B" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-weight="500">
+    <tspan fill="#8B5CF6">❯</tspan>
+    <tspan fill="#64748B"> initialize</tspan>
+    <tspan fill="#94A3B8"> --operator</tspan>
+    <tspan fill="#F1F5F9"> "MEET_KHAMAR"</tspan>
+    <tspan fill="#94A3B8"> --mode</tspan>
+    <tspan fill="#10B981"> SOC_DASHBOARD</tspan>
+  </text>
+
+  <!-- Status line -->
+  <text x="0" y="40" font-size="11" fill="#64748B" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-weight="400">
+    <tspan fill="#10B981">✓</tspan>
+    <tspan fill="#94A3B8"> Dashboard initialized. All systems operational.</tspan>
+    <!-- Blinking cursor -->
+    <tspan fill="#8B5CF6" filter="url(#termGlow)">
+      <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>▊
+    </tspan>
+  </text>
+</svg>
