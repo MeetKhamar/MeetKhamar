@@ -8,7 +8,7 @@
 
 | # | Component | File | Dimensions | Status |
 |---|---|---|---|---|
-| 1 | Hero Portrait | `assets/svg/hero-portrait.svg` | 340 × 420 | ✅ V2 Refined |
+| 1 | Hero Portrait | `assets/profile/hero-portrait.jpeg` | Image | ✅ Customized Image |
 | 2 | System Status Bar | `assets/svg/system-status.svg` | 860 × 64 | ✅ V2 Refined |
 | 3 | Terminal Init | `assets/svg/terminal-init.svg` | 600 × 48 | ✅ NEW |
 | 4 | Mission Briefing | `assets/svg/mission-briefing.svg` | 520 × 160 | ✅ NEW |
@@ -21,11 +21,14 @@
 
 ## Component Specifications
 
-### 1. Hero Portrait (`hero-portrait.svg`)
+### 1. Hero Portrait (`assets/profile/hero-portrait.jpeg`)
 
-**Purpose**: Primary visual identity — a geometric cyber helmet/visor.
+**Purpose**: Primary visual identity — High-tech Cyber Operator in SOC Command Environment with Hydra/Snake Security Engine theme.
 
 **Visual Features**:
+- Operator at high-tech holographic SOC terminal
+- Cybernetic snakes / hydra security engine background
+- Holographic globe & UI displays
 - Low-poly geometric helmet with visor, ear pieces, shoulder plates
 - Purple gradient visor with glass reflection
 - Scanner line sweeping across visor

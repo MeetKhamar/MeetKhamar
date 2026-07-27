@@ -54,8 +54,8 @@
 <table width="100%">
   <tr>
     <td width="38%" align="center" valign="top">
-      <br/>
-      <img src="assets/svg/hero-portrait.svg" width="280" alt="Meet Khamar — Cyber Operator Portrait" />
+      <!-- Cyber Operator Portrait -->
+      <img src="assets/profile/hero-portrait.jpeg" width="300" style="border-radius: 12px;" alt="Meet Khamar — Cyber Operator Portrait" />
       <br/><br/>
     </td>
     <td width="62%" valign="top">
